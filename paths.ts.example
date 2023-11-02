@@ -1,0 +1,2 @@
+/** Set paths you want to vrt */
+export const paths = [];

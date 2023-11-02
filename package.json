@@ -1,0 +1,16 @@
+{
+  "name": "vrt-page",
+  "version": "1.0.0",
+  "description": "Visual Regression Testing for page",
+  "private": true,
+  "scripts": {
+    "postinstall": "playwright install chromium",
+    "vrt": "playwright test",
+    "vrt:update-snapshots": "playwright test --update-snapshots",
+    "vrt:show-report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
